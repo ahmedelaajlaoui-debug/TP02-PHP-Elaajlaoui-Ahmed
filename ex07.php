@@ -6,17 +6,26 @@
     <title>Exercice7</title>
 </head>
 <body>
+   <section style="background-color: green; color: white; padding: 15px;">
     <?php
     $nombre=7;
     for ($i=1; $i <=10 ; $i++) { 
         echo $nombre." x ".$i." = ".$nombre*$i."<br>";
     }
+    
+    ?>
+    </section>
+    <section style="background-color: purple; color: white; padding: 15px;">
+    <?php
+    $s="*";
     for($i=0;$i<6;$i++){
-        for ($j=0; $j <=6; $j++) { 
-            echo "$i";
+        for ($j=0; $j <$i; $j++) { 
+            
+            echo  "$i $s" ;
         }
         echo"<br>";
     }   
     ?>
+    </section>
 </body>
 </html>
