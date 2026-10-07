@@ -16,3 +16,6 @@ L'affichage de `false` entre `echo` et `var_dump()`.
 # pour echo : il afficher un chaine vide 
 # por var_dump(): il affiche le type est bool avec false
 
+# Exercice 10: methode get 
+avec la methode get les valeur de champs son passer dans url 
+# http://localhost:8000/ex10_get.php?nom=ahmed&prenom=sdd&groupe=G2 
