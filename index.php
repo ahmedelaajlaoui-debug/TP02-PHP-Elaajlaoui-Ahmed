@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP2 WEP2</title>
+    <title>TP2 WEP2 Ahmed Elaajlaoui</title>
 </head>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            display: block;
+            padding: 10px 15px;
+            background: #f0f4f8;
+            color: #0066cc;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: #e2e8f0;
+        }
+    </style>
 <body>
     <?php
        echo "<h1> Bienvenue dans mon TP PHP</h1>";
@@ -12,5 +43,21 @@
        echo "Prénom: Ahmed <br>";
        echo "Groupe: 3 <br>";
     ?>
+
+    <ul> <li><a href="ex01.php">Exercice 1</a></li>
+     <li><a href="ex02.php">Exercice 2</a></li>
+         <li><a href="ex03.php">Exercice 3</a></li>
+        <li><a href="ex04.php">Exercice 4</a></li>
+        <li><a href="ex05.php">Exercice 5</a></li>
+        <li><a href="ex06.php">Exercice 6</a></li>
+        <li><a href="ex07.php">Exercice 7</a></li>
+        <li><a href="ex08.php">Exercice 8</a></li>
+        <li><a href="ex09.php">Exercice 9</a></li>
+        <li><a href="ex10_get.html">Exercice 10 — GET</a></li>
+        <li><a href="ex10_get.php">Exercice 10 — Traitement GET</a></li>
+        <li><a href="ex10_post.html">Exercice 10 — POST</a></li>
+        <li><a href="ex10_post.php">Exercice 10 — Traitement POST</a></li>
+        <li><a href="README.md">README</a></li>
+    </ul>
 </body>
 </html>
